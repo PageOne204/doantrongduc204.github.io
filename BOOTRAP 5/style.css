@@ -1,0 +1,11 @@
+ body::before {
+   display: block;
+   content: '';
+   height: 60px;
+ }
+
+ @media(min-width:786px) {
+   .new-input {
+     width: 50%;
+   }
+ }
